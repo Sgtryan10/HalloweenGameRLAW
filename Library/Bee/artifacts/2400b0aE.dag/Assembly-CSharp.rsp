@@ -363,6 +363,7 @@
 "Assets/Scripts/CollectibleCandy.cs"
 "Assets/Scripts/DoorCandy.cs"
 "Assets/Scripts/InteractableDoor.cs"
+"Assets/Scripts/PlayerThrow.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
