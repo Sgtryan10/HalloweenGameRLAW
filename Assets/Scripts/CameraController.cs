@@ -1,40 +1,39 @@
 using UnityEngine;
+using UnityEngine.UI;
 
-public class CameraSwitcher : MonoBehaviour
+public class CameraSwticher : MonoBehaviour
 {
     public Camera mainCamera;
     public Camera playerCamera;
+    public Button switchButton;
     
     private bool isUsingMainCamera = true;
     
     void Start()
     {
-        // Find cameras if not assigned
         if (mainCamera == null)
             mainCamera = Camera.main;
         
-        // Start with main camera active
         SwitchToMainCamera();
-    }
-    
-    void Update()
-    {
-        // Press C to switch cameras
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            ToggleCamera();
-        }
+        
+        // Add button listener
+        if (switchButton != null)
+            switchButton.onClick.AddListener(ToggleCamera);
     }
     
     void ToggleCamera()
     {
         if (isUsingMainCamera)
         {
-            SwitchToPlayerCamera();
+            mainCamera.enabled = false;
+            playerCamera.enabled = true;
+            isUsingMainCamera = false;
         }
         else
         {
-            SwitchToMainCamera();
+            mainCamera.enabled = true;
+            playerCamera.enabled = false;
+            isUsingMainCamera = true;
         }
     }
     
@@ -43,25 +42,5 @@ public class CameraSwitcher : MonoBehaviour
         mainCamera.enabled = true;
         playerCamera.enabled = false;
         isUsingMainCamera = true;
-        Debug.Log("Switched to Main Camera");
-    }
-    
-    void SwitchToPlayerCamera()
-    {
-        mainCamera.enabled = false;
-        playerCamera.enabled = true;
-        isUsingMainCamera = false;
-        Debug.Log("Switched to Player Camera");
-    }
-    
-    // Public methods you can call from other scripts
-    public void UseMainCamera()
-    {
-        SwitchToMainCamera();
-    }
-    
-    public void UsePlayerCamera()
-    {
-        SwitchToPlayerCamera();
     }
 }
