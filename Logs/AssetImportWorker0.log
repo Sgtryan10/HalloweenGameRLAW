@@ -492,3 +492,2153 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:scripting/precompiled-assembly-types:Assembly-CSharp: 3592a4df959943e994fbdf0b45f478dd -> 1f279a56486456879a7b59b65ac38d85
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x302187000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.247 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.622 seconds
+Domain Reload Profiling: 869ms
+	BeginReloadAssembly (81ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (126ms)
+		LoadAssemblies (138ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (622ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (199ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3286 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3814.
+Memory consumption went from 163.9 MB to 163.9 MB.
+Total: 2.085250 ms (FindLiveObjects: 0.107750 ms CreateObjectMapping: 0.050375 ms MarkObjects: 1.892959 ms  DeleteObjects: 0.033417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/CameraController.cs: a05daa5aec0efb44088aad2f6d2508f6 -> 34b6be4e23ce86dc89786916c5983296
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 3592a4df959943e994fbdf0b45f478dd -> 1f279a56486456879a7b59b65ac38d85
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x302187000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.199 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.610 seconds
+Domain Reload Profiling: 809ms
+	BeginReloadAssembly (70ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (89ms)
+		LoadAssemblies (106ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (610ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (221ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (167ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 2.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3286 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3818.
+Memory consumption went from 169.0 MB to 169.0 MB.
+Total: 2.775041 ms (FindLiveObjects: 0.149166 ms CreateObjectMapping: 0.076250 ms MarkObjects: 2.514625 ms  DeleteObjects: 0.034083 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/CameraController.cs: a05daa5aec0efb44088aad2f6d2508f6 -> 34b6be4e23ce86dc89786916c5983296
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 3592a4df959943e994fbdf0b45f478dd -> 1f279a56486456879a7b59b65ac38d85
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x17c68b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.342 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.803 seconds
+Domain Reload Profiling: 1146ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (183ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (804ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (348ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3286 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3822.
+Memory consumption went from 174.1 MB to 174.1 MB.
+Total: 3.416375 ms (FindLiveObjects: 0.161083 ms CreateObjectMapping: 0.076916 ms MarkObjects: 3.123000 ms  DeleteObjects: 0.054458 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/CameraController.cs: a05daa5aec0efb44088aad2f6d2508f6 -> 34b6be4e23ce86dc89786916c5983296
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 3592a4df959943e994fbdf0b45f478dd -> 1f279a56486456879a7b59b65ac38d85
+========================================================================
+Received Import Request.
+  Time since last request: 1284.353281 seconds.
+  path: Assets/Scripts/CameraController.cs
+  artifactKey: Guid(5180b80f29230472e8fbdf64e93a14e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraController.cs using Guid(5180b80f29230472e8fbdf64e93a14e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1ed78c78c4d3683e977b52b5133325a0') in 0.004278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x17c68b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.243 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.636 seconds
+Domain Reload Profiling: 880ms
+	BeginReloadAssembly (81ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (129ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (636ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (212ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (164ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3285 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3826.
+Memory consumption went from 179.1 MB to 179.0 MB.
+Total: 2.018708 ms (FindLiveObjects: 0.113792 ms CreateObjectMapping: 0.049625 ms MarkObjects: 1.824750 ms  DeleteObjects: 0.030125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/CameraController.cs: a05daa5aec0efb44088aad2f6d2508f6 -> 34b6be4e23ce86dc89786916c5983296
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 3592a4df959943e994fbdf0b45f478dd -> 1f279a56486456879a7b59b65ac38d85
+========================================================================
+Received Import Request.
+  Time since last request: 26.917975 seconds.
+  path: Assets/Scripts/CameraController.cs
+  artifactKey: Guid(5180b80f29230472e8fbdf64e93a14e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraController.cs using Guid(5180b80f29230472e8fbdf64e93a14e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '395292c51d79244140e4974f23e5299f') in 0.000872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.069876 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5a1a76298656c4a5af36fd15daddab37') in 0.000515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x17c68b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.218 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.537 seconds
+Domain Reload Profiling: 755ms
+	BeginReloadAssembly (70ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (108ms)
+		LoadAssemblies (118ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (537ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (186ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (26ms)
+			ProcessInitializeOnLoadAttributes (144ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3286 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3831.
+Memory consumption went from 184.3 MB to 184.3 MB.
+Total: 2.056833 ms (FindLiveObjects: 0.111375 ms CreateObjectMapping: 0.052209 ms MarkObjects: 1.864584 ms  DeleteObjects: 0.027959 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/CameraController.cs: a05daa5aec0efb44088aad2f6d2508f6 -> 34b6be4e23ce86dc89786916c5983296
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MainMenuCursor.cs: b9e9102c5e9a6ae9b983353656540579 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: f443da205f00f4756a95ec78cfd5a579 -> 1f279a56486456879a7b59b65ac38d85
+========================================================================
+Received Import Request.
+  Time since last request: 3.544840 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000863 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.105684 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000237 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100611 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000324 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.103629 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000413 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.103369 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000356 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101587 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000338 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099556 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000371 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099295 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000375 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100492 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000298 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099204 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000337 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.093756 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000312 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100843 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000366 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.103506 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000423 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.102129 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000401 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099092 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000203 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.103994 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000434 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.092674 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000350 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101906 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000442 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101584 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000454 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098112 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000456 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.097912 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000460 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.094621 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000325 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100668 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000433 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.102462 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000366 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101129 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000482 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.107054 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000562 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.090693 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000303 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101990 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000396 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.106779 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000469 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.096113 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000349 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101419 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000317 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100697 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000340 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098055 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000321 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101302 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000488 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098606 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000341 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.102376 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000357 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101887 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000329 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.095834 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000359 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101278 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000320 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099872 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000315 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101745 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000330 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.102810 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000355 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.093544 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000429 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.104484 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000278 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100369 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000323 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100252 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000306 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100602 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000299 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099122 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000321 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098213 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000308 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100996 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000325 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099301 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000386 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101733 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000338 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101879 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000361 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.097508 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000317 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100983 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000338 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100442 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000602 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100334 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000337 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100917 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000327 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101539 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000367 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100362 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000389 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098070 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000425 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100338 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000360 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100926 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000355 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.097741 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000295 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101705 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000331 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.102083 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000385 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098303 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000339 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100629 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000373 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099255 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000342 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.102016 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000326 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101858 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000311 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099984 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000291 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.096796 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000317 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.104868 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000356 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.093478 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000311 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.105284 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000333 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099014 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000316 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.097676 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000315 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099820 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000285 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099632 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000292 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.104198 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000353 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.097923 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000430 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:43Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099030 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000271 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.103669 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000313 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099166 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000300 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098923 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000410 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101299 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000388 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.107589 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000290 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.094988 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000393 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.094527 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000356 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098107 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000301 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098602 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000351 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.103914 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000340 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.109586 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000323 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.091825 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000290 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.097261 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000309 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.104416 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000296 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.097334 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000275 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.097625 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000284 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.106117 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000296 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.094434 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000396 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099939 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000350 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099777 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000283 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.104755 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000353 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098729 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000348 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101680 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000377 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.102620 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000290 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.096492 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000362 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+  ERROR: Build asset version error: assets/scripts/mainmenucursor.cs in SourceAssetDB has modification time of '2025-10-30T04:16:39Z' while content on disk has modification time of '2025-10-30T04:16:51Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x17c68b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.218 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.628 seconds
+Domain Reload Profiling: 846ms
+	BeginReloadAssembly (74ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (102ms)
+		LoadAssemblies (115ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (628ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (217ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (167ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3286 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3835.
+Memory consumption went from 189.5 MB to 189.5 MB.
+Total: 2.133334 ms (FindLiveObjects: 0.121625 ms CreateObjectMapping: 0.054542 ms MarkObjects: 1.928708 ms  DeleteObjects: 0.027792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/CameraController.cs: a05daa5aec0efb44088aad2f6d2508f6 -> 34b6be4e23ce86dc89786916c5983296
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MainMenuCursor.cs: b9e9102c5e9a6ae9b983353656540579 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: f443da205f00f4756a95ec78cfd5a579 -> 1f279a56486456879a7b59b65ac38d85
+========================================================================
+Received Import Request.
+  Time since last request: 2.949179 seconds.
+  path: Assets/Scripts/MainMenuCursor.cs
+  artifactKey: Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuCursor.cs using Guid(41c8047fc75e64f73952b0b8be4258c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '35c95fa8804ff6e4cdeee507dd973613') in 0.000882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x17c68b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.215 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.624 seconds
+Domain Reload Profiling: 840ms
+	BeginReloadAssembly (71ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (103ms)
+		LoadAssemblies (121ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (624ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (214ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (164ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3286 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3839.
+Memory consumption went from 194.7 MB to 194.7 MB.
+Total: 2.431792 ms (FindLiveObjects: 0.161666 ms CreateObjectMapping: 0.104833 ms MarkObjects: 2.134250 ms  DeleteObjects: 0.030292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/CameraController.cs: a05daa5aec0efb44088aad2f6d2508f6 -> 34b6be4e23ce86dc89786916c5983296
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MainMenuCursor.cs: b9e9102c5e9a6ae9b983353656540579 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: f443da205f00f4756a95ec78cfd5a579 -> 1f279a56486456879a7b59b65ac38d85
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16afd7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.227 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.620 seconds
+Domain Reload Profiling: 848ms
+	BeginReloadAssembly (78ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (108ms)
+		LoadAssemblies (122ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (620ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (213ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (163ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3286 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3842.
+Memory consumption went from 200.0 MB to 200.0 MB.
+Total: 2.403833 ms (FindLiveObjects: 0.127250 ms CreateObjectMapping: 0.066083 ms MarkObjects: 2.158000 ms  DeleteObjects: 0.051875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/CameraController.cs: a05daa5aec0efb44088aad2f6d2508f6 -> 34b6be4e23ce86dc89786916c5983296
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MainMenuCursor.cs: b9e9102c5e9a6ae9b983353656540579 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 3592a4df959943e994fbdf0b45f478dd -> 1f279a56486456879a7b59b65ac38d85
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16afd7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.193 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.367 seconds
+Domain Reload Profiling: 560ms
+	BeginReloadAssembly (70ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (84ms)
+		LoadAssemblies (101ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (367ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (215ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (167ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3286 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3846.
+Memory consumption went from 205.1 MB to 205.1 MB.
+Total: 4.309375 ms (FindLiveObjects: 0.176833 ms CreateObjectMapping: 0.115792 ms MarkObjects: 3.984625 ms  DeleteObjects: 0.031250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/CameraController.cs: a05daa5aec0efb44088aad2f6d2508f6 -> 34b6be4e23ce86dc89786916c5983296
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MainMenuCursor.cs: b9e9102c5e9a6ae9b983353656540579 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 3592a4df959943e994fbdf0b45f478dd -> 1f279a56486456879a7b59b65ac38d85
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16afd7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.246 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.618 seconds
+Domain Reload Profiling: 865ms
+	BeginReloadAssembly (80ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (121ms)
+		LoadAssemblies (128ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (619ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (204ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (157ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3286 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3850.
+Memory consumption went from 210.2 MB to 210.2 MB.
+Total: 2.089833 ms (FindLiveObjects: 0.105667 ms CreateObjectMapping: 0.051750 ms MarkObjects: 1.893000 ms  DeleteObjects: 0.038916 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/CameraController.cs: ad476367c442d21fdde1b286ee0e1796 -> 34b6be4e23ce86dc89786916c5983296
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MainMenuCursor.cs: b9e9102c5e9a6ae9b983353656540579 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 5e379da78ca519f2f9e4515ae2c54908 -> 1f279a56486456879a7b59b65ac38d85
+========================================================================
+Received Import Request.
+  Time since last request: 112.397864 seconds.
+  path: Assets/Scripts/CameraController.cs
+  artifactKey: Guid(5180b80f29230472e8fbdf64e93a14e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraController.cs using Guid(5180b80f29230472e8fbdf64e93a14e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a2feb7e577b182c71126cb627bf253e0') in 0.001028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16afd7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.205 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.590 seconds
+Domain Reload Profiling: 795ms
+	BeginReloadAssembly (70ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (95ms)
+		LoadAssemblies (107ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (590ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (204ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (156ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3285 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3854.
+Memory consumption went from 215.2 MB to 215.2 MB.
+Total: 2.170500 ms (FindLiveObjects: 0.135750 ms CreateObjectMapping: 0.060583 ms MarkObjects: 1.946084 ms  DeleteObjects: 0.027250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/CameraController.cs: fc7a74603be31ca48bead0a1f5d512d7 -> 34b6be4e23ce86dc89786916c5983296
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MainMenuCursor.cs: b9e9102c5e9a6ae9b983353656540579 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: ed7f1786d1b97e3d0c428adfefd794b6 -> 1f279a56486456879a7b59b65ac38d85
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16afd7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.190 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.365 seconds
+Domain Reload Profiling: 556ms
+	BeginReloadAssembly (68ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (83ms)
+		LoadAssemblies (98ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (365ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (213ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (164ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3286 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3858.
+Memory consumption went from 220.5 MB to 220.5 MB.
+Total: 2.380542 ms (FindLiveObjects: 0.148792 ms CreateObjectMapping: 0.061666 ms MarkObjects: 2.140417 ms  DeleteObjects: 0.028583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/CameraController.cs: fc7a74603be31ca48bead0a1f5d512d7 -> 34b6be4e23ce86dc89786916c5983296
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MainMenuCursor.cs: b9e9102c5e9a6ae9b983353656540579 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: ed7f1786d1b97e3d0c428adfefd794b6 -> 1f279a56486456879a7b59b65ac38d85
+========================================================================
+Received Import Request.
+  Time since last request: 16.203871 seconds.
+  path: Assets/Scripts/CameraController.cs
+  artifactKey: Guid(5180b80f29230472e8fbdf64e93a14e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraController.cs using Guid(5180b80f29230472e8fbdf64e93a14e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '89ed940cc97353ee5ad57de8e9c2e477') in 0.000986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

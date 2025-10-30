@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CameraController : MonoBehaviour
+public class CameraSwitcher : MonoBehaviour
 {
     public Camera mainCamera;
     public Camera playerCamera;
