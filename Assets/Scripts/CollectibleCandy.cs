@@ -7,7 +7,6 @@ public class CollectibleCandy : MonoBehaviour
     public float rotateSpeed = 90f;
 
     private Vector3 startPosition;
-    private DoorCandy doorCandyRef;
 
     void Start()
     {
@@ -31,15 +30,10 @@ public class CollectibleCandy : MonoBehaviour
         transform.Rotate(Vector3.up, rotateSpeed * Time.deltaTime);
     }
 
-    public void SetDoorCandyReference(DoorCandy door)
-    {
-        doorCandyRef = door;
-    }
-
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player")) {
-            doorCandyRef.CollectCandy();
+            DoorCandy.Instance.CollectCandy();
 
             Destroy(gameObject);
         }

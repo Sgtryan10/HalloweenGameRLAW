@@ -5,6 +5,8 @@ using System.Collections.Generic;
 
 public class DoorCandy : MonoBehaviour
 {
+    public static DoorCandy Instance { get; private set; }
+
     public TextMeshProUGUI counterText;
     public AudioClip doorSound, trickOrTreatSound, pickupSound;
     public List<GameObject> candies;
@@ -15,6 +17,11 @@ public class DoorCandy : MonoBehaviour
     private AudioSource audioSource;
     private Camera mainCamera;
     private bool hasBeenUsed = false;
+
+    void Awake()
+    {
+        Instance = this;
+    }
 
     void Start()
     {
@@ -62,10 +69,6 @@ public class DoorCandy : MonoBehaviour
 
             Vector3 spawnPosition = transform.position + transform.forward * -0.3f + Vector3.up * 0.2f;
             GameObject spawnedCandy = Instantiate(selectedCandy, spawnPosition, Quaternion.identity);
-
-            CollectibleCandy collectibleScript = spawnedCandy.GetComponent<CollectibleCandy>();
-
-            collectibleScript.SetDoorCandyReference(this);
     }
 
     public void CollectCandy()
@@ -75,7 +78,13 @@ public class DoorCandy : MonoBehaviour
         audioSource.PlayOneShot(pickupSound);
     }
 
-    private void UpdateDisplay()
+    public void LoseCandy()
+    {
+        interactionCount--;
+        UpdateDisplay();
+    }
+
+    public void UpdateDisplay()
     {
         counterText.text = "Candy: " + interactionCount.ToString();
     }
