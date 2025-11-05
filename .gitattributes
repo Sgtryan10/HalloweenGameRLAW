@@ -1,5 +1,4 @@
 ## Unity ##
-
 *.cs diff=csharp text
 *.cginc text
 *.shader text
@@ -46,4 +45,5 @@
 *.rns filter=lfs diff=lfs merge=lfs -text
 *.reason filter=lfs diff=lfs merge=lfs -text
 *.lxo filter=lfs diff=lfs merge=lfs -text
-Library/Artifacts/6b/6b253176f9b00080b7a336e0aac27d57 filter=lfs diff=lfs merge=lfs -text
+Library/… filter=lfs diff=lfs merge=lfs -text
+Library/PackageCache/com.unity.burst@1.8.24/.Runtime/libburst-llvm-19.dylib filter=lfs diff=lfs merge=lfs -text
